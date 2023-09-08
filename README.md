@@ -659,7 +659,7 @@ plt.show()
 	
 	   ```python
 	   # 载入数据
-	   mnist = input_data.read_data_sets("/tmp/tensorflow/mnist/input_data", one_hot=True)
+	   mnist = input_data.read_data_sets("/home/bupt/tensorflow/mnist/input_data", one_hot=True)
 	   ```
 	
 	1. 构建神经网络。利用Tensorflow构建简单神经网络。
@@ -777,7 +777,7 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 
 # 载入数据
-mnist = input_data.read_data_sets("/tmp/tensorflow/mnist/input_data", one_hot=True)
+mnist = input_data.read_data_sets("/home/bupt/tensorflow/mnist/input_data", one_hot=True)
 
 # 构建单层神经网络
 x = tf.placeholder(tf.float32, [None, 784])
